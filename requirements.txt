@@ -1,0 +1,5 @@
+numpy>=1.19.0
+faiss-gpu>=1.7.0  # 使用GPU版本
+# faiss-cpu>=1.7.0  # 或使用CPU版本
+tqdm>=4.45.0
+psutil>=5.7.0
