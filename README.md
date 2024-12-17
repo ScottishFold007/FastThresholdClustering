@@ -123,6 +123,8 @@ clusterer.fit(embeddings)
 labels = clusterer.labels_
 ```
 
+## 详细使用用例见**example.py**
+
 ## 注意事项
 1. 输入向量会自动进行L2归一化
 2. 大规模数据集建议启用GPU加速
