@@ -1,17 +1,17 @@
-import numpy as np
+import os
+import gc
+import time
+import psutil
 import faiss
+import logging
+import numpy as np
+from datetime import datetime
 from tqdm.auto import tqdm
 from typing import Optional
-import psutil
-import os
-from datetime import datetime
-import time
 from contextlib import contextmanager
 from concurrent.futures import ThreadPoolExecutor
 from functools import partial
-import gc
-# 在顶部导入部分添加
-import logging
+
 
 # 添加日志配置
 logging.basicConfig(
