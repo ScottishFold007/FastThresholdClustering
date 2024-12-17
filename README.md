@@ -26,13 +26,6 @@ labels = fast_cluster_embeddings(
 )
 ```
 
-## 详细API
-
-### FastThresholdClustering 类
-
-#### 初始化参数
-
-
 
 # FastThresholdClustering 参数详解
 
