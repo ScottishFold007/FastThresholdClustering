@@ -4,7 +4,7 @@ import torch
 import pandas as pd
 import matplotlib.pyplot as plt
 from sentence_transformers import SentenceTransformer, util
-from import fast_cluster_embeddings
+from fast_threshold_clustering import fast_cluster_embeddings
 
 # Model for computing sentence embeddings.
 model = SentenceTransformer("./m3e_nli_triple_large")
