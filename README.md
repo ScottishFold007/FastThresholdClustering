@@ -1,4 +1,5 @@
-# [FastThresholdClustering](README_CN.md)
+# FastThresholdClustering
+### [中文文档](README_CN.md)
 
 ## Introduction
 `FastThresholdClustering` is an efficient vector clustering algorithm based on FAISS, particularly suitable for large-scale vector data clustering tasks. The algorithm uses cosine similarity as the distance metric and supports GPU acceleration.
